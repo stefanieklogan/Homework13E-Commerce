@@ -38,8 +38,26 @@ router.post('/', async (req, res) => {
     }
   });
 
-router.put('/:id', (req, res) => {
+///////////////////THIS CODE WORKS/////////////////////
+router.put('/:id', async (req, res) => {
   // update a tag's name by its `id` value
+  Tag.update(
+    {
+      tag_name: req.body.tag_name,
+    },
+    {
+      where: {
+        id: req.params.id,
+      },
+    }
+  )
+  .then((updatedTag) => {
+    res.json(updatedTag);
+  })
+  .catch((err) => {
+    console.log(err);
+    res.json(err);
+  })
 });
 
 ///////////////THIS CODE WORKS//////////////////////
