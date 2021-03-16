@@ -44,7 +44,7 @@
 
 * Example of API routing for tag data - return all table results:
 
-
+https://github.com/stefanieklogan/Homework13E-Commerce/blob/main/assets/tag_get_apiroute.JPG
 
 <a name="streetcred"></a>
 ## The other stuff: License & Badges
