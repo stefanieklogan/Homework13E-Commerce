@@ -22,7 +22,7 @@
 <a name="depend"></a>
 ## Dependencies
 
-* MySQL
+* mySQL2
 
 * express
 
@@ -33,9 +33,9 @@
 
 * After cloning this repository, run 'npm install' for dependencies. 
 
-* Create a '.env' file with your MySQL port, username & password for 'ecommerce_db' database. 
+* Create a '.env' file with your MySQL port, username & password.
 
-* Schema and seeds files are available and should be executed prior to application use via 'npm run seeds'. 
+* Schema and seeds files are available and should be executed prior to application use via 'npm run seeds'. Look for 'ecommerce_db' and four tables (product/category/tag/product_tag) to verify file successfully ran.
 
 * To run the application, enter 'node server.js' inside terminal. 
 
@@ -44,7 +44,7 @@
 
 * Example of API routing for tag data - return all table results:
 
-https://github.com/stefanieklogan/Homework13E-Commerce/blob/main/assets/tag_get_apiroute.JPG
+![Homepage image1](https://github.com/stefanieklogan/Homework13E-Commerce/blob/main/assets/tag.JPG)
 
 <a name="streetcred"></a>
 ## The other stuff: License & Badges
