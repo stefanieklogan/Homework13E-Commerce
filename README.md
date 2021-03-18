@@ -12,7 +12,7 @@
 <a name="application"></a>
 ## Application
 
-* Walk-thru video: xxxxxxxxxxxxxxxxxxxxxx
+* Walk-thru video: https://drive.google.com/file/d/1w64YnXoYupKKu62q7RvNEUYOLO0w1lf0/view
 
 <a name="overview"></a>
 ## Project overview
